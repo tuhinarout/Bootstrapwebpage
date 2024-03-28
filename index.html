@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+nav{
+    font-weight: 700;
+}
+
+    </style>
+</head>
+
+<body>
+                                                 <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-secondary ">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="#"><b>Webpage</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#service">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#skill">Skill</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+              
+             
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+                                             <!-- PHOTO SLIDE -->
+<div id="home" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/project/image/business-people-board-room-meeting.jpg" class="d-block w-100" alt="..." height="400px">
+      </div>
+      <div class="carousel-item">
+        <img src="/project/image/guy-shows-document-girl-group-young-freelancers-office-have-conversation-working.jpg" class="d-block w-100" alt="..." height="400px">
+      </div>
+      <div class="carousel-item">
+        <img src="/project/image/29.jpg" class="d-block w-100" alt="..." height="400px">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--  -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 "><h2 class="text-center display-6 mt-4 mb-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptates?<br>Lorem ipsum dolor sit amet.</h2></div>
+
+    </div>
+               <!-- description -->
+    <div class="row justify-content-evenly" id="service">
+        <div class="col-md-3 text-center">
+            <h1><i class="bi bi-file-code-fill text-info"></i></h1>
+            <h5>Build for developers</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus officiis eius quasi, quae distinctio architecto aspernatur minus sit aperiam?</p>
+        </div>
+        <div class="col-md-3 text-center"
+        ><h1><i class="bi bi-easel-fill text-warning"></i></h1>
+    
+        <h5>Build for developers</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iusto ut debitis consequatur quidem aspernatur nobis nisi vero quas deleniti?</p>
+    </div>
+        <div class="col-md-3 text-center">
+            <h1><i class="bi bi-calendar-check-fill text-danger"></i></h1>
+            <h5>Build for developers</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus facilis corrupti consequatur nam laudantium odit eum quis. Sequi, ea debitis.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="row justify-content-evenly" id="skill">
+      <div class="col-md-5 pt-3">
+        <img src="/project/image/29.jpg" alt="" class="img-fluid">
+      </div>
+
+      <div class="col-md-5 pt-3">
+        <h5 class="mt-3">App development</h5>
+        <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    
+          <div class="progress-bar bg-success" style="width: 25%"></div>
+        </div>
+        <h5 class="mt-3">html</h5>
+        <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-info" style="width: 50%"></div>
+        </div>
+        <h5 class="mt-3">java</h5>
+        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-warning" style="width: 75%"></div>
+        </div>
+        <h5 class="mt-3">css</h5>
+        <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar bg-danger" style="width: 100%"></div>
+        </div>
+      </div>
+    </div>
+
+<div class="row justify-content-evenly pt-3 pb-4 " id="Contact">
+  <div class="col-md-5 mt-4">
+    <h1>CONTACT FORM</h1>
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Enter your name</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"> Enter your email</label>
+        <input type="email" class="form-control" id="exampleInputPassword1">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <div class="col-md-5 ">
+    <h3 class="mt-4">ADDRESS</h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6847.8697954737245!2d75.83722913726488!3d30.88848215522111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a8252b8e3ca8b%3A0x95e476a9f680cec2!2sPritm%20Nagar%2C%20Model%20Town%2C%20Ludhiana%2C%20Punjab%20141002!5e0!3m2!1sen!2sin!4v1693841054743!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-md-12 text-center bg-secondary p-2 text-light" style="font-size: 20px;">copyrights-Tuhina rout</div>
+</div>
+</div>
+
+
+</body>
+<script src="/bootstrap-5.3.1-dist/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+</html>
